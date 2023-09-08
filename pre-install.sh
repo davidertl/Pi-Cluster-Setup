@@ -27,8 +27,8 @@ raspi-config nonint do_audio 0                # Auto select audio output device
 #raspi-config nonint do_rgpio 1               # Disable gpio server - must install deb package first
 
 # System Configuration
-raspi-config nonint do_configure_keyboard de                     # Specify US Keyboard
-raspi-config nonint do_hostname pix                              # Set hostname to 'rpi-test'
+raspi-config nonint do_configure_keyboard de                     # Specify DE Keyboard
+#raspi-config nonint do_hostname pix                              # Set hostname to 'rpx'
 raspi-config nonint do_wifi_country DE                           # Set wifi country as Germany
 #do_wifi_ssid_passphrase wifi_name password   # Set wlan0 network to join 'wifi_name' network using 'password'
 raspi-config nonint do_change_timezone Europe/Berlin                    # Change timezone to Europe/Berlin
